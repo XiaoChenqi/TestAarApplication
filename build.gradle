@@ -1,6 +1,7 @@
 //apply plugin: 'com.android.application'
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.XiaoChenqi'
 
 android {
     compileSdkVersion 30
@@ -35,6 +36,8 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
     classpath 'com.android.tools.build:gradle:4.1.1'
+    classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
+
 }
 
 
